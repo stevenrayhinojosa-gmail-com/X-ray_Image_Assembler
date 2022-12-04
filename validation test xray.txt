@@ -1,0 +1,61 @@
+#I put images that go side by side
+from PIL import Image
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/hFCxUbU0LzX3PIZT.jpg"
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/6WSbnV4ciRw6OOgI.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+from PIL import Image
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/Ll13FpP4LYA25TPc.jpg"
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/Ulk9QalPmuiNUZwu.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+from PIL import Image
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/iMstIjDFli9AeRFZ.jpg"
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/GZyLeR3SbQi30gRv.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+from PIL import Image
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/72lVh2nY1Jh3GmUR.jpg"
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/szDJT69M2B42sPDI.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+
+from PIL import Image
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/iMstIjDFli9AeRFZ.jpg"
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/GZyLeR3SbQi30gRv.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
+
+from PIL import Image
+image2 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/p7GTF4gH8k4N98Vr.jpg"
+image1 = "C://Users/steve/Downloads/Validation Test-20220415T052724Z/Validation Test/xray/t3OakitzyAXT5FIA.jpg"
+img1 = Image.open(image1)
+img2 = Image.open(image2)
+image_new = Image.new('RGB', (img1.width+img2.width, img1.height))
+image_new.paste(img2,(0,0))
+image_new.paste(img1, (img1.width,0))
+image_new
